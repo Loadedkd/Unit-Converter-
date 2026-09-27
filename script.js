@@ -1,0 +1,15 @@
+function convert() {
+  const inputValue = document.getElementById("userInput").value;
+  const unit = document.getElementById("unit").value;
+  const milesToKm = unit === "milesToKm";
+  let result = 0;
+  let resultString = "";
+  if (milesToKm === true) {
+    result = inputValue * 1.60934;
+    resultString = inputValue + " miles are " + result.toFixed(2) + " km";
+  } else {
+    result = inputValue / 1.60934;
+    resultString = inputValue + " km are " + result.toFixed(2) + " miles";
+  }
+  document.getElementById("resultElement").innerHTML = resultString;
+}
