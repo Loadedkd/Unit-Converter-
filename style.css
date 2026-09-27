@@ -1,0 +1,5 @@
+body { background-color: lightblue; padding: 20px; font-family: system-ui, sans-serif; }
+h1 { padding: 20px; background-color: white; border-radius: 5px; max-width: 400px; }
+input, select, button { display: block; margin: 10px 0; padding: 10px; font-size: 16px; border-radius: 5px; border: none; }
+button { background: #24244a; color: white; cursor: pointer; font-weight: bold; }
+p { background-color: magenta; color: white; border-radius: 5px; width: fit-content; min-width: 200px; padding: 10px; }
